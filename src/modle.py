@@ -273,6 +273,9 @@ def flip_board():
     gui.update()
 
 
+def print_board():
+    print board
+
 if __name__ == '__main__':
     board = Board()
     gui = GUI(board, pieces=PIECES[:])
